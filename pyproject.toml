@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-healer"
+version = "0.1.0"
+description = "Self-Healing Runtime Middleware & Schema Mutation Adapter for MCP Tools"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed@example.com" }
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "self-healing",
+    "schema-migration",
+    "claude-opus-5-5",
+    "gpt-6-astra",
+    "ai-agents"
+]
+dependencies = []
+
+[project.scripts]
+mcp-healer = "mcp_healer.cli:main"
